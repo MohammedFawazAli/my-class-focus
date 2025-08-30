@@ -18,6 +18,12 @@
     },
     "plugins": [
       "expo-router",
+      [
+        "expo-dev-client",
+        {
+          "addGeneratedScheme": false
+        }
+      ],
       "expo-font",
       "expo-web-browser",
       [
